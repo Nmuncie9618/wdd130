@@ -1,0 +1,20 @@
+body {
+    background-color: pink;
+}
+.black {
+    color: black;
+}
+main, footer {
+    max-width: 360px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+ol {
+    text-align: left;
+    font-weight: bold;
+}
+
+.title:hover {
+    color: black;
+}

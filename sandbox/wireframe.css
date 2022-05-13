@@ -17,3 +17,19 @@ img {
 .media-box {
     background-color: white;
 }
+a:link {
+    color: salmon;
+    text-decoration: none;
+}
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+a:active {
+    color: purple;
+    text-decoration: none;
+}
