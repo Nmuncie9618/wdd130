@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: gray;
+}
+img {
+    max-width: 100%;
+}
+footer {
+    text-align: center;
+}
+footer img {
+    width: 20%;
+    border-radius: 50%;
+    border: 12px solid #444;
+    margin: 4%;
+}
