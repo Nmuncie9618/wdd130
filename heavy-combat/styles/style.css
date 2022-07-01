@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #5F634F;
+    font-family: Lato;
+}
+header {
+    display: grid;
+    grid-template-columns: 125px auto;
+    background-color: #FFF3B0;
+}
+header img {
+    width: 100%;
+}
+nav {
+    font-size: 26px;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Cinzel";
+}
+nav a {
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    color: #2A1E5C;
+    font-weight: bolder;
+}
+nav a:hover {
+    background-color: #5F634F;
+    color: #D64045;
+}
+.content1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-top: 20px;
+    color: #FFF3B0;
+}
+.content1 img {
+    max-width: 75%;
+    margin: auto;
+}
+.content1 div {
+    grid-column: 1 / 3;
+    padding: 20px;
+    font-size: 18px;
+}
+footer {
+    height: 100px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #FFF3B0;
+}
+footer h3 {
+    margin: auto;
+    font-size: 26px;
+}
+footer a {
+    margin: auto;
+    font-size: 26px;
+    text-decoration: none;
+    color: #2A1E5C;
+    font-family: "Cinzel";
+    font-weight: bolder;
+}
+footer a:hover {
+    background-color: #5F634F;
+    color: #D64045;
+}
