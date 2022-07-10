@@ -33,11 +33,14 @@ nav a:hover {
     background-color: #5F634F;
     color: #D64045;
 }
+main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .content1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
-    margin-top: 20px;
     color: #FFF3B0;
 }
 .content1 img {
@@ -48,6 +51,31 @@ nav a:hover {
     grid-column: 1 / 3;
     padding: 20px;
     font-size: 18px;
+}
+.content2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    color: #FFF3B0;
+}
+.content2 img {
+    grid-column: 1 / 2;
+    max-width: 75%;
+    margin: auto;
+    padding: 10px
+}
+.content2 div {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    font-size: 18px;
+    margin: auto;
+    padding: 20px;
+}
+.content2 div h3 {
+    font-size: 40px;
+    font-family: "Cinzel";
+    padding: 10px;
+    color: #D64045;
 }
 footer {
     height: 100px;
