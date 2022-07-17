@@ -77,6 +77,54 @@ main {
     padding: 10px;
     color: #D64045;
 }
+.content3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    color: #FFF3B0;
+    font-size: 18px;
+}
+.content3 .banner {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    max-width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+.content3 img {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    max-width: 50%;
+    margin: auto;
+}
+.content3 p {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding-right: 40px;
+    margin: auto;
+}
+.content3 div {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    margin: auto 40px auto auto;
+    background-color: #FFF3B0;
+    color: #5F634F;
+    font-size: 20px;
+}
+.content3 div p {
+    margin: auto;
+}
+.content3 a {
+    font-family: "Cinzel";
+    font-size: 24px;
+    color: #2A1E5C;
+    font-weight: bolder;
+    padding-bottom: 5px;
+}
+.content3 a:hover {
+    background-color: #5F634F;
+    color: #D64045;
+}
 footer {
     height: 100px;
     text-align: center;
